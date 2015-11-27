@@ -12,12 +12,10 @@
 /*----------------------------------------------------------------
     General Rules
 ----------------------------------------------------------------*/
-
 ::selection {
     background: #FD685B;
     color: #fff;
 }
-
 ::-moz-selection {
     background: #FD685B;
     color: #fff;
@@ -5211,7 +5209,7 @@ a.rel {
     padding: 9% 24%;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,0.24);
+    background: rgba(0,0,0,0.40);
     margin-top: -23px;
 }
 .sub-text {
@@ -5261,3 +5259,44 @@ h1 {
 .pd {
     padding: 1% 18% 5%;
 }
+.chica {
+      -webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+  filter: shadow(color=#ff3333, direction=45, strength=2);
+}
+.fondo{
+    /*background-image: url(../imagenes/fondo/fondo1.jpg);*/
+    background-color: rgba(0,0,0,0.1);
+    
+}
+.metodo {
+    font-size: 25px;
+}
+.blog-t{
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    color:#000000;
+
+}
+}
+.bg-img {
+    background: url('../img/loguis.png')
+}
+.mg-sec {
+    margin: 0px;
+    background: #ffe5f6;
+}
+.purple {
+    background: #B456B7;
+}
+.bg-loguis {
+    background: url('../img/loguis.png');
+
+}
+.section-title h3 {
+        font-size: 1.3em;
+}
+.pt-7 {
+    padding-top: 7%;
+} 
+
